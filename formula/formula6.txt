@@ -1,0 +1,12 @@
+(declare-const doubleRainbow Int)
+(declare-const rainbow Int)
+(declare-const rain Int)
+(declare-const lightning Int)
+(declare-const solution Int)
+
+
+(assert (= 12 (+ (- doubleRainbow rainbow) rainbow)))
+(assert (= 4 (- (- doubleRainbow rain) rain)))
+(assert (= 22 (- (* rain rainbow) lightning)))
+(assert (= 13 doubleRainbow))
+(assert (= solution (- (/ doubleRainbow lightning) rain)))

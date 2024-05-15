@@ -1,0 +1,6 @@
+(declare-fun x () Int)
+(declare-fun y () Int)
+(declare-fun z () Int) 
+(declare-fun u () Int)
+(declare-fun v () Int)
+(assert (and (or (<= (+ x 3) (* 2 y ) ) (>= (+ x 4) z))))

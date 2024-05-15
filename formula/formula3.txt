@@ -1,0 +1,11 @@
+(declare-const doubleRainbow3 Real)
+(declare-const rainbow Real)
+(declare-const rain Real)
+(declare-const lightning Real)
+(declare-const solution Real)
+
+(assert (= 12.0 (+ (- doubleRainbow3 rainbow) rainbow)))
+(assert (= 4.0 (- (- doubleRainbow3 rain) rain)))
+(assert (= 22.0 (- (* rain rainbow) lightning)))
+(assert (= 13.0 doubleRainbow3))
+(assert (= solution (- (/ doubleRainbow3 lightning) rain)))

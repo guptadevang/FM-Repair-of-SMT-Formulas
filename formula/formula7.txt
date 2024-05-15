@@ -1,0 +1,8 @@
+(declare-const x3 Int)
+(declare-const yx Int)
+(declare-const z2 Real)
+(assert (< x3 0))
+(assert (= yx 0))
+(assert (>= z2 4.0))
+(assert (> x3 0))
+(assert (= (+ (+ x3 yx) z2) 10))

@@ -1,0 +1,9 @@
+(declare-fun x () Int)
+(declare-fun z () Int) 
+(declare-fun y () Int) 
+(declare-const a Bool)
+
+(assert  (and (or (> x 3) (> (* x 6) z) ) (not a) ) )
+(assert (> z 40))
+(assert (< x 3))
+
